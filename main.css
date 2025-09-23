@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Comfortaa", sans-serif;
+    font-size: medium;
+    color: aliceblue;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: black;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.header {
+    padding: 5%;
+}
+header .logo {
+    text-transform: uppercase;
+    font-size: large;  
+    padding-top: 5%;
+} 
+header nav {
+    float: right;
+    width: 40%;
+    padding-top: 1%;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul a {
+    color: rgb(132, 82, 161);
+    -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease; 
+}
+header nav ul li a:hover {
+    color: rgb(178, 142, 245);
+}
+aside ul {
+    font-size: larger;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    white-space: y;
+    list-style-type: none;
+}
+.cxz h1 {
+    text-decoration: overline underline;
+    text-decoration-color: rgb(88, 15, 156);
+    text-align: center;
+    line-height: 5%;
+    padding: 3%;
+}
+.zxc {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.www {
+    background-color: rgb(161, 79, 238);
+    display: inline-block;
+    margin: 5%;
+}
+.qqq {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.eee {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+footer {
+    background-color: black;
+    font-size: medium;
+    margin: auto;
+    padding-top: 80%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+@media (max-width: 1800px){
+    .ccx {
+        text-align: right   ;
+    }
+}
+@media (max-width: 1600px){
+    .ccx {
+        font-size: small;
+    }
+    .vvc {
+        display: none;
+    }
+}
+@media (max-width: 1534px) {
+    .ccx {
+        display: none;
+    }
+    .image {
+        margin: 0 auto;
+        align-content: center;
+        float: center;
+        display: flex;
+    }
+    .mmm {
+        display: none;
+    }
+    .yyy {
+        display: none;
+    }
+    header nav {
+    float: center;
+    width: 100%;
+    padding-top: 1%;
+    margin: 0 auto;
+    padding-bottom: 1%;
+    }
+    header nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        font-size: larger;
+    }
+    header nav ul li {
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .zxc {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    }
+}
+@media (max-width: 1250px) {
+    .qqq {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column nowrap;
+        flex: 0 1 auto;
+        font-size: larger;
+    }
+    .eee {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column nowrap;
+        font-size: larger;
+    }
+    .image {
+        margin: 0 auto;
+        align-content: center;
+        float: center;
+        display: flex;
+    }
+    header nav {
+    float: center;
+    width: 100%;
+    padding-top: 1%;
+    margin: 0 auto;
+    padding-bottom: 1%;
+    }
+    header nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        font-size: 30px;
+        align-self: center;
+        max-width: 100%;
+        width: 90%;
+        height: auto;
+    }
+    header nav ul li {
+        display: inline-block;
+        margin: 0 auto;
+        text-align:justify;
+    }
+    header nav {
+        float: center;
+        width: 100%;
+        padding-top: 1%;
+        margin: 0 auto;
+        padding-bottom: 1%;
+    }
+
+}
