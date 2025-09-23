@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Comfortaa", sans-serif;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+body {
+    background: black;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    font-size: larger;
+    padding-top: 3%;
+    color: rgb(132, 82, 161);
+}
+header nav ul li {
+    list-style-type: none;
+    color: rgb(132, 82, 161);
+    
+}
+header nav ul li a:hover {
+    color: rgb(172, 142, 245);
+    -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+}
+article {
+    width: 90%;
+    margin: 0 auto;
+}
+.qwe {
+    padding-top: 4%;
+}
+.ric a{
+    color: rgb(132, 82, 161);
+} 
+.ric a:hover {
+    color: rgb(172, 142, 245);
+}
+.rric a{
+    color: rgb(132, 82, 161);
+} 
+.rric a:hover {
+    color: rgb(172, 142, 245);
+}
+.ppp {
+    padding-top: 4%;
+}
+.ricc a{
+    color: rgb(132, 82, 161);
+} 
+.ricc a:hover {
+    color: rgb(172, 142, 245);
+}
+.riic a{
+    color: rgb(132, 82, 161);
+} 
+.riic a:hover {
+    color: rgb(172, 142, 245);
+}
+.gif {
+    font-size: larger;
+    position: absolute;
+    right: 24%;
+    top: 14.3%;
+    white-space: y;
+    list-style-type: none;
+}
+@media (max-width: 1120px) {
+    .gif {
+        display: none;
+    }
+}
