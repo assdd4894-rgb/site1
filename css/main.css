@@ -105,6 +105,11 @@ footer {
     .ccx {
         text-align: right   ;
     }
+    {
+    header nav {
+        padding-right: 0 ;
+            
+    {
 }
 @media (max-width: 1600px){
     .ccx {
@@ -209,4 +214,5 @@ footer {
     }
 
 }
+
 
