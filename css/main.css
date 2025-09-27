@@ -95,21 +95,12 @@ footer {
     padding-bottom: 2%;
     text-align: center;
 }
-@media (max-width: 4000px) {
-    header nav {
-        padding-right: 2%;
-            
-    {
-}
+
 @media (max-width: 1800px){
     .ccx {
         text-align: right   ;
     }
-    {
-    header nav {
-        padding-right: 0 ;
-            
-    {
+    
 }
 @media (max-width: 1600px){
     .ccx {
@@ -214,5 +205,6 @@ footer {
     }
 
 }
+
 
 
